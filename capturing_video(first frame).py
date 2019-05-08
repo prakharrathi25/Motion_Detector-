@@ -2,8 +2,9 @@ import cv2, time
 
 #Use OpenCV for reading frames / images one by one using a forloop 
 
-#method to create VideoCapture object. 
-# 0 to trigger webcam and we can also give the path to the video file
+#method to create a VideoCapture object. 
+#0 to trigger webcam and we can also give the path to the video file
+# 1, 2 and so on can triger external objects
 video = cv2.VideoCapture(0)
 
 #adding a frame to the video that we capture 
